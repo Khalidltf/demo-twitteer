@@ -52,7 +52,8 @@ gem "bootsnap", require: false
 gem 'bulma-rails', '~> 0.9.4'
 
 # Forms made easy!
-gem 'simple_form', '~> 5.2'
+# gem 'simple_form', '~> 5.2'
+gem 'simple_form'
 
 # A configurable and documented Rails view helper for adding gravatars into your Rails application.
 gem 'gravatar_image_tag', '~> 1.2'
@@ -75,6 +76,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'guard', '~> 2.18'
 end
 
 group :test do
